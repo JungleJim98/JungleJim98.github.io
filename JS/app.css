@@ -1,0 +1,33 @@
+
+#position{
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+#grid{
+  
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+  
+
+}
+
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px
+}
+
+.cube{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
